@@ -17,4 +17,6 @@ function save(firstname, lastname, username, password, type) {
         document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
     }
     alert('Record with username: ' + username + ' added successfully.');
+
+    alert('Record with username: ' + username + ' added successfully.why');
 }
